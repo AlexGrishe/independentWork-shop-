@@ -6135,7 +6135,7 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-image: url(/assets/img/patt.png);
+  background-image: url(../img/patt.png);
   font-family: 'Roboto', sans-serif;
   color: white;
 }
@@ -6274,7 +6274,7 @@ input[type="search"] {
 .navbar-block__btn-shopCart {
   background-color: white;
   margin-left: 15px;
-  background-image: url(/assets/img/icon-1.png);
+  background-image: url(../img/icon-1.png);
   background-size: 25px 25px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -6286,7 +6286,7 @@ input[type="search"] {
 .navbar-block__btn-shopCart:hover {
   background-color: #2b71b6;
   background-repeat: no-repeat;
-  background-image: url(/assets/img/icon-2.png);
+  background-image: url(../img/icon-2.png);
   background-position: 50% 50%;
 }
 
@@ -6439,7 +6439,7 @@ input[type="search"] {
 }
 
 .main-block__card-btn_addCart:hover {
-  background-image: url(/assets/img/icon-1.png);
+  background-image: url(../img/icon-1.png);
   background-repeat: no-repeat;
   background-position: 95% 50%;
 }
@@ -6457,7 +6457,7 @@ input[type="search"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url(/assets/img/icon-2.png);
+  background-image: url(../img/icon-2.png);
   background-repeat: no-repeat;
   background-position: 95% 50%;
   background-size: 18px;
@@ -6509,7 +6509,7 @@ input[type="search"] {
 .main-block__card-btn-size {
   width: 30px;
   height: 30px;
-  background-image: url(/assets/img/icon-8.png);
+  background-image: url(../img/icon-8.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   border: 1px solid #2a6cb3;
@@ -6518,7 +6518,7 @@ input[type="search"] {
 }
 
 .main-block__card-btn-size:hover {
-  background-image: url(/assets/img/icon-6.png);
+  background-image: url(../img/icon-6.png);
   background-color: #2a6cb3;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -6527,7 +6527,7 @@ input[type="search"] {
 .main-block__card-btn-favorite {
   width: 30px;
   height: 30px;
-  background-image: url(/assets/img/icon-5.png);
+  background-image: url(../img/icon-5.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   border: 1px solid #2a6cb3;
@@ -6536,7 +6536,7 @@ input[type="search"] {
 }
 
 .main-block__card-btn-favorite:hover {
-  background-image: url(/assets/img/icon-7.png);
+  background-image: url(../img/icon-7.png);
   background-color: #2a6cb3;
   background-repeat: no-repeat;
   background-position: 50% 50%;
