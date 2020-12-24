@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/scss/style.scss">
+</head>
+
+<body>
+
+<header class="header col-lg-12" id="header">
+<div class="container-fluid">
+    <div class="row">
+        <div class="logo-block col-lg-3">
+            <a class="logo-block__link" href="#">
+                <img class="logo-block__img animate__animated animate__fadeInLeftBig" src="assets/img/icon-3.png" alt="">
+            </a>
+        </div>
+        <div class="navbar-block col-lg-9">
+                <nav class="navbar navbar-expand-lg navbar-expand-md">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-block__menu navbar-nav">
+                            <li class="divider-vertical"></li>
+                            <li class="navbar-block__item nav-item active">
+                                <a class="navbar-block__link nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li class="navbar-block__item nav-item dropdown">
+                                <a class="navbar-block__link navbar-block__link_dropdown-toggle nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Products
+                                </a>
+                                <div class="navbar-block__dropdown-menu dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="navbar-block__dropdown-item dropdown-item" href="#">Lorem ipsum dolor elit.</a>
+                                    <a class="navbar-block__dropdown-item dropdown-item" href="#">Sit amet</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="navbar-block__dropdown-item dropdown-item" href="#">Consectetur adipisicing</a>
+                                    <a class="navbar-block__dropdown-item dropdown-item" href="#">Assumenda, omnis!</a>
+                                </div>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li class="navbar-block__item nav-item">
+                                <a class="navbar-block__link nav-link" href="#">Payment</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li class="navbar-block__item nav-item">
+                                <a class="navbar-block__link nav-link" href="#">Shipping</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                        </ul>
+
+                        <div class="navbar-block__search search">
+                            <input type="search" placeholder="search">
+                            <button type="submit">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+
+                        </div>
+                        <button type="button" class="navbar-block__btn-shopCart btn"></button>
+                    </div>
+
+<!--                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">-->
+<!--                        <span class="navbar-toggler-icon"></span>-->
+<!--                    </button>-->
+<!--                    <div class="collapse navbar-collapse-sm" id="collapsibleNavbar">-->
+<!--                        <ul class="navbar-nav">-->
+<!--                            <li class="navbar-block__item nav-item active">-->
+<!--                                <a class="navbar-block__link nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>-->
+<!--                            </li>-->
+<!--                            <li class="navbar-block__item nav-item dropdown">-->
+<!--                                <a class="navbar-block__link navbar-block__link_dropdown-toggle nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                                    Products-->
+<!--                                </a>-->
+<!--                                <div class="navbar-block__dropdown-menu dropdown-menu" aria-labelledby="navbarDropdown">-->
+<!--                                    <a class="navbar-block__dropdown-item dropdown-item" href="#">Lorem ipsum dolor elit.</a>-->
+<!--                                    <a class="navbar-block__dropdown-item dropdown-item" href="#">Sit amet</a>-->
+<!--                                    <div class="dropdown-divider"></div>-->
+<!--                                    <a class="navbar-block__dropdown-item dropdown-item" href="#">Consectetur adipisicing</a>-->
+<!--                                    <a class="navbar-block__dropdown-item dropdown-item" href="#">Assumenda, omnis!</a>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                            <li class="navbar-block__item nav-item">-->
+<!--                                <a class="navbar-block__link nav-link" href="#">Payment</a>-->
+<!--                            </li>-->
+<!--                            <li class="navbar-block__item nav-item">-->
+<!--                                <a class="navbar-block__link nav-link" href="#">Shipping</a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+
+                </nav>
+
+        </div>
+
+    </div>
+</div>
+</header>
+
+<section class="carousel-block" id="carousel">
+    <div class="container">
+<div class="row">
+
+        <div id="carouselExampleCaptions" class="carousel slide col-lg-12 col-md-12" data-ride="carousel">
+            <ol class="carousel-block__indicators carousel-indicators">
+                <li class="carousel-block__indicator-item active" data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+                <li class="carousel-block__indicator-item" data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li class="carousel-block__indicator-item" data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-block__inner carousel-inner">
+                <div class="carousel-block__inner-item carousel-item active">
+                    <img src="/assets/img/slide.png" class="carousel-block__inner-img d-block w-100" alt="...">
+                    <div class="carousel-block__inner-caption carousel-caption d-none d-md-block">
+                        <h5 class="carousel-block__inner-captionMain">First slide label</h5>
+                        <p class="carousel-block__inner-captionAdditional">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-block__inner-item carousel-item">
+                    <img src="/assets/img/slide.png" class="carousel-block__inner-img d-block w-100" alt="...">
+                    <div class="carousel-block__inner-caption carousel-caption d-none d-md-block">
+                        <h5 class="carousel-block__inner-captionMain"> Second slide label</h5>
+                        <p class="carousel-block__inner-captionAdditional">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-block__inner-item carousel-item">
+                    <img src="/assets/img/slide.png" class="carousel-block__inner-img d-block w-100" alt="...">
+                    <div class="carousel-block__inner-caption carousel-caption d-none d-md-block">
+                        <h5 class="carousel-block__inner-captionMain">Third slide label</h5>
+                        <p class="carousel-block__inner-captionAdditional">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-block__control-prev carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-block__control-prev_icon carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-block__control-prev_text sr-only">Previous</span>
+            </a>
+            <a class="carousel-block__control-next carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-block__control-next_icon carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-block__control-next_text sr-only">Next</span>
+            </a>
+        </div>
+
+</div>
+    </div>
+</section>
+
+<section class="products-block">
+    <div class="container">
+        <div class="row">
+            <aside class="aside-block col-lg-3 col-md-3 col-sm-3 col-3">
+                <div class="aside-block__checkboxes">
+                    <h2 class="aside-block__caption-checkbox">Device type</h2>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck1">
+                            Laptop
+                        </label>
+                    </div>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck2">
+                            Tablet
+                        </label>
+                    </div>
+                    <h2>Color</h2>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck3">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck3">
+                            Black
+                        </label>
+                    </div>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck4">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck4">
+                            Red
+                        </label>
+                    </div>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck5">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck5">
+                            Blue
+                        </label>
+                    </div>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck6">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck6">
+                            Orange
+                        </label>
+                    </div>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck7">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck7">
+                            Green
+                        </label>
+                    </div><h2>RAM</h2>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck8">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck8">
+                            1GB
+                        </label>
+                    </div>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck9">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck9">
+                            2GB
+                        </label>
+                    </div>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck10">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck10">
+                            4GB
+                        </label>
+                    </div>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck11">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck11">
+                            8GB
+                        </label>
+                    </div>
+                    <div class="aside-block__form-checkbox form-check">
+                        <input class="aside-block__input-checkbox form-check-input" type="checkbox" value="" id="defaultCheck12">
+                        <label class="aside-block__label-checkbox form-check-label" for="defaultCheck12">
+                            16GB
+                        </label>
+                    </div>
+                        <div class="aside-block__buttons">
+                                <a class="aside-block__button-link" href="#">Show more options...</a>
+                                <button class="aside-block__button-submit" type="submit">Submit</button>
+                        </div>
+                </div>
+            </aside>
+
+            <div class="main-block col-lg-9 col-md-9 col-sm-9 col-9">
+                <nav aria-label="breadcrumb">
+                    <ol class="main-block__breadcrumb breadcrumb">
+                        <li class="main-block__breadcrumb-item"><a class="main-block__breadcrumb-text" href="#">Home page</a></li>
+                        <li class="main-block__breadcrumb-item"><a class="main-block__breadcrumb-text" href="#">Products</a></li>
+                        <li class="main-block__breadcrumb-item main-block__breadcrumb-item_active active" aria-current="page">
+                            <a class="main-block__breadcrumb-text main-block__breadcrumb-text_active"  href="#">Laptops and Tablets</a></li>
+                    </ol>
+                </nav>
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <h2 class="main-block__title ">Laptops and Tablets</h2>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <select class="main-block__form-control form-control form-control-sm">
+                            <option class="form-control__option">sort by price</option>
+                            <option class="form-control__option">sort by date</option>
+                            <option class="form-control__option">sort by name</option>
+                            <option class="form-control__option">sort by popularity</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="main-block__cards">
+
+                        <div class="main-block__card">
+                            <div class="main-block__card-img">
+                                <div></div>
+                                <div class="main-block__card-img-main">
+                                    <img src="assets/img/laptop.png" class="main-block__card-img-main_center" alt="...">
+                                </div>
+                                <div class="main-block__card-buttons">
+                                    <a class="btn main-block__card-btn-size" href="#"></a>
+                                    <button class="btn main-block__card-btn-favorite" type="submit"></button>
+                                </div>
+                            </div>
+                            <div class="main-block__card-body">
+                                <h5 class="main-block__card-title">#1 Device Name</h5>
+                                <p class="main-block__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="main-block__card-text"><span>TYPE:</span> Laptop</p>
+                                <p class="main-block__card-text"><span>SCREEN SIZE:</span> 7 inches</p>
+                                <p class="main-block__card-text"><span>RAM:</span> 1GB</p>
+                                <p class="main-block__card-text card-price">$599<sup>2</sup><sup>5</sup></p>
+                                <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                                <a href="#" class="btn main-block__card-btn_addCart btn-primary">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <div class="main-block__card">
+                            <div class="main-block__card-img">
+                                <div></div>
+                                <div class="main-block__card-img-main">
+                                    <img src="assets/img/icon-11.png" class="main-block__card-img-main_center" alt="...">
+                                </div>
+                                <div class="main-block__card-buttons">
+                                    <a class="btn main-block__card-btn-size" href="#"></a>
+                                    <button class="btn main-block__card-btn-favorite" type="submit"></button>
+                                </div>
+                            </div>
+                            <div class="main-block__card-body">
+                                <h5 class="main-block__card-title">#2 Device Name</h5>
+                                <p class="main-block__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="main-block__card-text"><span>TYPE:</span> Laptop</p>
+                                <p class="main-block__card-text"><span>SCREEN SIZE:</span> 7 inches</p>
+                                <p class="main-block__card-text"><span>RAM:</span> 1GB</p>
+                                <p class="main-block__card-text card-price">$599<sup>2</sup><sup>5</sup></p>
+                                <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                                <a href="#" class="btn main-block__card-btn_addCart btn-primary">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <div class="main-block__card">
+                            <div class="main-block__card-img">
+                                <div></div>
+                                <div class="main-block__card-img-main">
+                                    <img src="assets/img/icon-10.png" class="main-block__card-img-main_center" alt="...">
+                                </div>
+                                <div class="main-block__card-buttons">
+                                    <a class="btn main-block__card-btn-size" href="#"></a>
+                                    <button class="btn main-block__card-btn-favorite" type="submit"></button>
+                                </div>
+                            </div>
+                            <div class="main-block__card-body">
+                                <h5 class="main-block__card-title">#3 Device Name</h5>
+                                <p class="main-block__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="main-block__card-text"><span>TYPE:</span> Laptop</p>
+                                <p class="main-block__card-text"><span>SCREEN SIZE:</span> 7 inches</p>
+                                <p class="main-block__card-text"><span>RAM:</span> 1GB</p>
+                                <p class="main-block__card-text card-price">$1250<sup>9</sup><sup>9</sup></p>
+                                <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                                <a href="#" class="btn main-block__card-btn_addCart btn-primary">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <div class="main-block__card">
+                            <div class="main-block__card-img">
+                                <div></div>
+                                <div class="main-block__card-img-main">
+                                    <img src="assets/img/laptop.png" class="main-block__card-img-main_center" alt="...">
+                                </div>
+                                <div class="main-block__card-buttons">
+                                    <a class="btn main-block__card-btn-size" href="#"></a>
+                                    <button class="btn main-block__card-btn-favorite" type="submit"></button>
+                                </div>
+                            </div>
+                            <div class="main-block__card-body">
+                                <h5 class="main-block__card-title">#1 Device Name</h5>
+                                <p class="main-block__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="main-block__card-text"><span>TYPE:</span> Laptop</p>
+                                <p class="main-block__card-text"><span>SCREEN SIZE:</span> 7 inches</p>
+                                <p class="main-block__card-text"><span>RAM:</span> 1GB</p>
+                                <p class="main-block__card-text card-price">$599<sup>2</sup><sup>5</sup></p>
+                                <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                                <a href="#" class="btn main-block__card-btn_addCart btn-primary">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <div class="main-block__card">
+                            <div class="main-block__card-img">
+                                <div></div>
+                                <div class="main-block__card-img-main">
+                                    <img src="assets/img/icon-11.png" class="main-block__card-img-main_center" alt="...">
+                                </div>
+                                <div class="main-block__card-buttons">
+                                    <a class="btn main-block__card-btn-size" href="#"></a>
+                                    <button class="btn main-block__card-btn-favorite" type="submit"></button>
+                                </div>
+                            </div>
+                            <div class="main-block__card-body">
+                                <h5 class="main-block__card-title">#2 Device Name</h5>
+                                <p class="main-block__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="main-block__card-text"><span>TYPE:</span> Laptop</p>
+                                <p class="main-block__card-text"><span>SCREEN SIZE:</span> 7 inches</p>
+                                <p class="main-block__card-text"><span>RAM:</span> 1GB</p>
+                                <p class="main-block__card-text card-price">$599<sup>2</sup><sup>5</sup></p>
+                                <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                                <a href="#" class="btn main-block__card-btn_addCart btn-primary">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <div class="main-block__card">
+                            <div class="main-block__card-img">
+                                <div></div>
+                                <div class="main-block__card-img-main">
+                                    <img src="assets/img/icon-10.png" class="main-block__card-img-main_center" alt="...">
+                                </div>
+                                <div class="main-block__card-buttons">
+                                    <a class="btn main-block__card-btn-size" href="#"></a>
+                                    <button class="btn main-block__card-btn-favorite" type="submit"></button>
+                                </div>
+                            </div>
+                            <div class="main-block__card-body">
+                                <h5 class="main-block__card-title">#3 Device Name</h5>
+                                <p class="main-block__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="main-block__card-text"><span>TYPE:</span> Laptop</p>
+                                <p class="main-block__card-text"><span>SCREEN SIZE:</span> 7 inches</p>
+                                <p class="main-block__card-text"><span>RAM:</span> 1GB</p>
+                                <p class="main-block__card-text card-price">$1250<sup>9</sup><sup>9</sup></p>
+                                <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                                <a href="#" class="btn main-block__card-btn_addCart btn-primary">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <div class="main-block__card">
+                            <div class="main-block__card-img">
+                                <div></div>
+                                <div class="main-block__card-img-main">
+                                    <img src="assets/img/laptop.png" class="main-block__card-img-main_center" alt="...">
+                                </div>
+                                <div class="main-block__card-buttons">
+                                    <a class="btn main-block__card-btn-size" href="#"></a>
+                                    <button class="btn main-block__card-btn-favorite" type="submit"></button>
+                                </div>
+                            </div>
+                            <div class="main-block__card-body">
+                                <h5 class="main-block__card-title">#1 Device Name</h5>
+                                <p class="main-block__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="main-block__card-text"><span>TYPE:</span> Laptop</p>
+                                <p class="main-block__card-text"><span>SCREEN SIZE:</span> 7 inches</p>
+                                <p class="main-block__card-text"><span>RAM:</span> 1GB</p>
+                                <p class="main-block__card-text card-price">$599<sup>2</sup><sup>5</sup></p>
+                                <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                                <a href="#" class="btn main-block__card-btn_addCart btn-primary">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <div class="main-block__card">
+                            <div class="main-block__card-img">
+                                <div></div>
+                                <div class="main-block__card-img-main">
+                                    <img src="assets/img/icon-11.png" class="main-block__card-img-main_center" alt="...">
+                                </div>
+                                <div class="main-block__card-buttons">
+                                    <a class="btn main-block__card-btn-size" href="#"></a>
+                                    <button class="btn main-block__card-btn-favorite" type="submit"></button>
+                                </div>
+                            </div>
+                            <div class="main-block__card-body">
+                                <h5 class="main-block__card-title">#2 Device Name</h5>
+                                <p class="main-block__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="main-block__card-text"><span>TYPE:</span> Laptop</p>
+                                <p class="main-block__card-text"><span>SCREEN SIZE:</span> 7 inches</p>
+                                <p class="main-block__card-text"><span>RAM:</span> 1GB</p>
+                                <p class="main-block__card-text card-price">$599<sup>2</sup><sup>5</sup></p>
+                                <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                                <a href="#" class="btn main-block__card-btn_addCart btn-primary">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <div class="main-block__card">
+                            <div class="main-block__card-img">
+                                <div></div>
+                                <div class="main-block__card-img-main">
+                                    <img src="assets/img/icon-10.png" class="main-block__card-img-main_center" alt="...">
+                                </div>
+                                <div class="main-block__card-buttons">
+                                    <a class="btn main-block__card-btn-size" href="#"></a>
+                                    <button class="btn main-block__card-btn-favorite" type="submit"></button>
+                                </div>
+                            </div>
+                            <div class="main-block__card-body">
+                                <h5 class="main-block__card-title">#3 Device Name</h5>
+                                <p class="main-block__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="main-block__card-text"><span>TYPE:</span> Laptop</p>
+                                <p class="main-block__card-text"><span>SCREEN SIZE:</span> 7 inches</p>
+                                <p class="main-block__card-text"><span>RAM:</span> 1GB</p>
+                                <p class="main-block__card-text card-price">$1250<sup>9</sup><sup>9</sup></p>
+                                <a href="#" class="main-block_card-btn_details btn btn-primary">MORE DETAILS</a>
+                                <a href="#" class="btn main-block__card-btn_addCart btn-primary">ADD TO CART</a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row main-block__link-loadMore  col-lg-12">
+
+                        <a class="main-block__link-loadMore-text" href="#">Load more...</a>
+                    </div>
+                </div>
+                </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="footer">
+    <p class="footer__main-text">@ Alexandr Grischenko 2020</p>
+</footer>
+
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+
+</html>
