@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d58de4cb-c8fc-4c29-b589-4a00cc301c2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/carousel.js" afterDir="false" />
+    <list default="true" id="d58de4cb-c8fc-4c29-b589-4a00cc301c2c" name="Default Changelist" comment="- Убрал бутсраповскую карусель&#10;- Добавил карусель на чистом JS&#10;- Добавил в карусель кнопку&#10;перехода на случайный слайд&#10;- Оформление не делал (пока что)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
@@ -95,8 +94,16 @@
       <workItem from="1608377197945" duration="911000" />
       <workItem from="1608411188518" duration="80903000" />
       <workItem from="1608885497859" duration="618000" />
-      <workItem from="1608890964863" duration="9326000" />
+      <workItem from="1608890964863" duration="21615000" />
     </task>
+    <task id="LOCAL-00001" summary="- Убрал бутсраповскую карусель&#10;- Добавил карусель на чистом JS&#10;- Добавил в карусель кнопку&#10;перехода на случайный слайд&#10;- Оформление не делал (пока что)">
+      <created>1608909613392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608909613392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +120,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Убрал бутсраповскую карусель&#10;- Добавил карусель на чистом JS&#10;- Добавил в карусель кнопку&#10;перехода на случайный слайд&#10;- Оформление не делал (пока что)" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Убрал бутсраповскую карусель&#10;- Добавил карусель на чистом JS&#10;- Добавил в карусель кнопку&#10;перехода на случайный слайд&#10;- Оформление не делал (пока что)" />
   </component>
 </project>
